@@ -133,4 +133,5 @@ This script is not affiliated with, supported by, or endorsed by Broadcom or Bro
 
 ## Acknowledgments
 - Thanks to the [Brocade Fabric OS REST API Reference Manual](https://docs.broadcom.com/docs/fabric-os-rest-api) for detailed endpoint specifications.
+- For Python-based Brocade FOS REST API examples, see Jack Consoli’s excellent [brocade-rest-api-examples](https://github.com/jconsoli/brocade-rest-api-examples) repository.
 - Special shoutout to the community for debugging insights on HTTP 415 errors.
