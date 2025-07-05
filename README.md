@@ -1,6 +1,6 @@
 # B-type FC Switch Configuration Backup (PowerShell)
 
-This PowerShell script, `fcswitch-config-backup.ps1`, automates the backup of Brocade Fibre Channel (FC) switch configurations using the Brocade Fabric OS (FOS) REST API. It provides a robust solution for Windows environments running PowerShell 7.1 or later. The script authenticates with the switch, retrieves the configuration, decodes base64-encoded data, saves both text and base64 output files, and logs out cleanly.
+This PowerShell script, `fcswitch-config-backup.ps1`, automates the backup of B-type Fibre Channel (FC) switch configurations using the Brocade Fabric OS (FOS) REST API. It provides a robust solution for Windows environments running PowerShell 7.1 or later. The script authenticates with the switch, retrieves the configuration, decodes base64-encoded data, saves both text and base64 output files, and logs out cleanly.
 
 ## Features
 - Supports token-based and basic authentication.
@@ -13,7 +13,7 @@ This PowerShell script, `fcswitch-config-backup.ps1`, automates the backup of Br
 ## Requirements
 - **PowerShell**: Version 7.1 or later.
 - **Operating System**: Windows (or any OS supporting PowerShell 7.1+).
-- **Network Access**: Connectivity to the Brocade FC switch over HTTPS (port 443).
+- **Network Access**: Connectivity to the B-type FC switch over HTTPS (port 443).
 - **Credentials**: Administrative username and password for the switch.
 - **Execution Policy**: Set to `RemoteSigned` or `Bypass` (run `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`).
 
