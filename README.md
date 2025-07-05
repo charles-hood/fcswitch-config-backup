@@ -128,6 +128,9 @@ Please include:
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Disclaimer
+This script is not affiliated with, supported by, or endorsed by Broadcom or Brocade.
+
 ## Acknowledgments
 - Thanks to the [Brocade Fabric OS REST API Reference Manual](https://docs.broadcom.com/docs/fabric-os-rest-api) for detailed endpoint specifications.
 - Special shoutout to the community for debugging insights on HTTP 415 errors.
