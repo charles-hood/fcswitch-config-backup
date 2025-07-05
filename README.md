@@ -1,4 +1,4 @@
-# Brocade FC Switch Configuration Backup (PowerShell)
+# B-type FC Switch Configuration Backup (PowerShell)
 
 This PowerShell script, `fcswitch-config-backup.ps1`, automates the backup of Brocade Fibre Channel (FC) switch configurations using the Brocade Fabric OS (FOS) REST API. It provides a robust solution for Windows environments running PowerShell 7.1 or later. The script authenticates with the switch, retrieves the configuration, decodes base64-encoded data, saves both text and base64 output files, and logs out cleanly.
 
